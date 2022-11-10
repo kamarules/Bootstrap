@@ -1,8 +1,0 @@
-name: Jakel
-
-on:
-push: ["main"]
-
-job:
-build:
- runs-on: ubuntu-latest
