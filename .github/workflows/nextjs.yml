@@ -48,6 +48,7 @@ jobs:
             echo "Unable to determine packager manager"
             exit 0
           fi
+   <--
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
@@ -61,13 +62,13 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
          # static_site_generator: next
-      - name: Restore cache
-        uses: actions/cache@v3
-        with:
-          path: |
-            .next/cache
+      # name: Restore cache
+      #  uses: actions/cache@v3
+      #  with:
+        #  path: |
+        #    .next/cache
           # Generate a new cache whenever packages or source files change.
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+       #   key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
