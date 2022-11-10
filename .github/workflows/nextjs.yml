@@ -19,11 +19,6 @@ permissions:
   id-token: write
 
 
- # Allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
  build:
   runs-on: windows-latest
