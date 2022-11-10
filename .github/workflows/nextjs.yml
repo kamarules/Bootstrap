@@ -2,8 +2,8 @@
 #
 # To get started with Next.js see: https://nextjs.org/docs/getting-started
 #
-name: Deploy Next.js site to Pages
-jobs:
+name: "Deploy Next.js site to Pages"
+
 on:
   # Runs on pushes targeting the default branch*/
   push:
@@ -16,7 +16,8 @@ on:
 permissions:
   contents: read
   pages: write
-  id-token: write
+  id-token: rmf
+
 
  # Allow one concurrent deployment
 concurrency:
