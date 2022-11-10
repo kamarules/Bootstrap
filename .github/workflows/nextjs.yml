@@ -21,11 +21,11 @@ permissions:
 
  # Allow one concurrent deployment
 concurrency:
-  group: "pages"
+  group: site
   cancel-in-progress: true
 
 jobs:
-  build:
+  push:
     runs-on: windows-latest
 
     steps:
