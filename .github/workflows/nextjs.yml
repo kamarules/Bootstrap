@@ -25,7 +25,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  push:
     runs-on: windows-latest
 
     steps:
