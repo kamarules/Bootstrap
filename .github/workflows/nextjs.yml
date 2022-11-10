@@ -24,8 +24,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-#jobs:
- #   runs-on: windows-latest
+jobs:
+ build:
+  runs-on: windows-latest
 
     steps:
       - name: Checkout
