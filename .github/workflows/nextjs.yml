@@ -19,14 +19,14 @@ permissions:
   id-token: write
 
 
-jobs:
- build:
-  runs-on: windows-latest
+#jobs:
+# build:
+ # runs-on: windows-latest
 
-    steps:
-        uses: github@action
+  #  steps:
+   #     uses: github@action
       - name: Checkout
-        uses: actions/checkout@v3
+  #      uses: actions/checkout@v3
       - name: Detect package manager
         id: detect-package-manager
         run: |
