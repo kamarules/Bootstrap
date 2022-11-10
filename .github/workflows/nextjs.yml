@@ -20,9 +20,9 @@ permissions:
 
 
  # Allow one concurrent deployment
-concurrency:
-  group: site
-  cancel-in-progress: true
+#concurrency:
+#  group: site
+#  cancel-in-progress: true
 
 #jobs:
  #   runs-on: windows-latest
