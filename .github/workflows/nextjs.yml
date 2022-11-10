@@ -16,7 +16,7 @@ on:
 permissions:
   contents: read
   pages: write
-  id-token: rmf
+  id-token: read
 
 
  # Allow one concurrent deployment
