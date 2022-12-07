@@ -1,4 +1,3 @@
-?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html 
      PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -7,6 +6,6 @@
     <title>Virtual Library</title>
   </head>
   <body>
-    <p>Moved to <a href="http://example.org/">example.org</a>.</p>
+    <p>Moved to <a href="http://kamarules.github.io/dire-straits">Example</a>.</p>
   </body>
 </html>
