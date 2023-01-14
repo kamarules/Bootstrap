@@ -1,9 +1,12 @@
+---
+permalink: /404.html
+---
 name: Jekyll site CI
 
 on:
   push:
     branches: [ "main" ]
-permission_dispatch
+
 
 
 jobs:
