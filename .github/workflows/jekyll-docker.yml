@@ -1,5 +1,5 @@
 
-name: Jekyll site CI
+name: Jekyll build and deploy
 
 on:
  push:
@@ -20,5 +20,5 @@ jobs:
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
     - name: Deploy to GitHub Pages
-      on: deployment
+      id: deployment
       uses: actions/deploy-pages@v1
