@@ -3,8 +3,9 @@ name: Jekyll site CI
 on:
   push:
     branches: [ "main" ]
-permission_dispatch: 
-read
+permission_dispatch
+
+
 jobs:
   build:
 
